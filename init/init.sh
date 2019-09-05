@@ -25,4 +25,6 @@ kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl versio
 
 kubectl get pod -n kube-system -w
 
+# kubectl create -f traefik-rbac.yaml 可选
+# kubectl create -f traefik-deployment.yaml 可选
 # kubectl create -f kubernetes-dashboard.yaml 可选
